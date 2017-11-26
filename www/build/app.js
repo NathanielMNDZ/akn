@@ -136,16 +136,16 @@ window.queries = [
 	//Create tables
 	"CREATE TABLE Users (IdUser integer primary key autoincrement, Name text not null);",
 	//Insert Users
-	"INSERT INTO 'Users' ('Name') VALUES ('List art Here');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Khriztian Moreno Zuluaga');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Cristian Rivas Buitrago');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Juan David Sánchez');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Nicolas Molina');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Miyamoto Musashi FIlander');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Didier Hernandez');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Luis Eduardo Oquendo Pérez');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Carlos Rojas');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Levano Castilla Carlos Miguel');"
+	"INSERT INTO 'Users' ('Name') VALUES ('This');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Will ');",
+	"INSERT INTO 'Users' ('Name') VALUES ('List');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Different');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Pieces');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Of');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Art');",
+	"INSERT INTO 'Users' ('Name') VALUES ('To');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Hunt in');",
+	"INSERT INTO 'Users' ('Name') VALUES ('NYC');"
 ];
 (function () {
 	'use strict';
@@ -438,7 +438,7 @@ window.queries = [
 		$scope.HelloWorld = function () {
 			$ionicPopup.alert({
 				title: 'Hello World',
-				template: 'This is the best template to start with Ionic Framework!',
+				template: 'This is the beginning of the AKN Art Hunt!!!',
      		cssClass: 'animated bounceInDown'
 			});
 		};
