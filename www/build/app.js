@@ -136,7 +136,7 @@ window.queries = [
 	//Create tables
 	"CREATE TABLE Users (IdUser integer primary key autoincrement, Name text not null);",
 	//Insert Users
-	"INSERT INTO 'Users' ('Name') VALUES ('Juan David Nicholls Cardona');",
+	"INSERT INTO 'Users' ('Name') VALUES ('List art Here');",
 	"INSERT INTO 'Users' ('Name') VALUES ('Khriztian Moreno Zuluaga');",
 	"INSERT INTO 'Users' ('Name') VALUES ('Cristian Rivas Buitrago');",
 	"INSERT INTO 'Users' ('Name') VALUES ('Juan David Sánchez');",
