@@ -396,7 +396,7 @@
   font-size: 26px; }
 
 .homeView .scroll-content {
-  background: linear-gradient(145deg, #6C6C6C, #95A2AB, #206AA7, #00508D, #002F57, #442144);
+  background: linear-gradient(145deg, #6C6C6C, #95A2AB);
   background-size: 800% 800%;
   animation: background 26s ease infinite; }
   .homeView .scroll-content .scroll {
