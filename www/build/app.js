@@ -136,16 +136,12 @@ window.queries = [
 	//Create tables
 	"CREATE TABLE Users (IdUser integer primary key autoincrement, Name text not null);",
 	//Insert Users
-	"INSERT INTO 'Users' ('Name') VALUES ('This');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Will ');",
-	"INSERT INTO 'Users' ('Name') VALUES ('List');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Different');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Pieces');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Of');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Art');",
-	"INSERT INTO 'Users' ('Name') VALUES ('To');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Hunt in');",
-	"INSERT INTO 'Users' ('Name') VALUES ('NYC');"
+	"INSERT INTO 'Users' ('Name') VALUES ('Isamu Noguchi: Red Cube');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Jeff Koons: Balloon Flower (Red)');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Sheila Hicks: Hop, Skip, Jump, and Fly: Escape From Gravity');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Sophie Calle: Here Lie The Secrets');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Jonathan Borofsky: Human Structures');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Pablo Picasso: Bust of Sylvette');"
 ];
 (function () {
 	'use strict';
