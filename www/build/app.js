@@ -138,7 +138,7 @@ window.queries = [
 	//Insert Users
 	"INSERT INTO 'Users' ('Name') VALUES ('Isamu Noguchi: Red Cube');",
 	"INSERT INTO 'Users' ('Name') VALUES ('Jeff Koons: Balloon Flower (Red)');",
-	"INSERT INTO 'Users' ('Name') VALUES ('Sheila Hicks: Hop, Skip, Jump, and Fly: Escape From Gravity');",
+	"INSERT INTO 'Users' ('Name') VALUES ('Sheila Hicks: Hop, Skip, Jump, and Fly');",
 	"INSERT INTO 'Users' ('Name') VALUES ('Sophie Calle: Here Lie The Secrets');",
 	"INSERT INTO 'Users' ('Name') VALUES ('Jonathan Borofsky: Human Structures');",
 	"INSERT INTO 'Users' ('Name') VALUES ('Pablo Picasso: Bust of Sylvette');"
