@@ -1,1 +1,15 @@
 <ion-view class="homeView"><ion-content>content here</ion-content></ion-view>
+
+<ion-view view-title="" class="homeView">
+  <ion-content>
+    <ion-list>
+      <div class="row row-wrap row-no-padding">
+        <ion-item ng-repeat="user in users" class="col col-50 button button-outline button-block light animated bounceInUp"  on-tap="openItem(item)">
+          <i class="icon {{item.icon}}"></i>
+          <p class="bold">{{ user.Name }}</p>
+        </ion-item>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
