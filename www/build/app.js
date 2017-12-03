@@ -404,8 +404,6 @@ window.queries = [
     GalleryController.$inject = ['$scope'];
     function GalleryController($scope) {
 
-    	if (count == 0){
-
 
         $scope.myFunction1 = function () {
         	if ( Jocount == 0){
@@ -487,22 +485,9 @@ window.queries = [
         		console.log("Is" + Iscount);
         	}
 
-        	countFunction();
-        };
-
-      	$scope.countFunction = function () {
-
-			console.log(count);
-
-        	}
-
 
         };
     }
-
-		console.log(count);
-
-}
 })();
 (function () {
 	'use strict';
