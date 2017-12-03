@@ -385,6 +385,9 @@ window.queries = [
         });
     }
 })();
+
+var count = 0;
+
 (function() {
 'use strict';
 
@@ -406,12 +409,9 @@ window.queries = [
         };
 
         $scope.myFunction3 = function () {
-           
-		var button = document.getElementById('Pablo'),
-  		count = 0;
-		button.onclick = function() {
-  		count += 1;
-  		console.log(count);
+        console.log(count);
+
+
 };
         };
     }
