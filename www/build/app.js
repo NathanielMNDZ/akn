@@ -411,9 +411,15 @@ window.queries = [
         .module('App')
         .controller('GalleryController', GalleryController);
 
-    GalleryController.$inject = ['$scope', '$state'];
-    function GalleryController($scope, $state) {
+    GalleryController.$inject = ['$scope', '$ionicPopup', '$state'];
+    function GalleryController($scope, $ionicPopup, $state) {
         
+        $scope.HelloWorld = function () {
+			$ionicPopup.alert({
+				title: 'Hello World',
+				template: 'This is the beginning of the AKN Art Hunt!!!',
+     		cssClass: 'animated bounceInDown'
+			};
         $scope.openItem = function(item){
             $state.go('app.item', { title: item.title, icon: item.icon, color: item.color });
         };
