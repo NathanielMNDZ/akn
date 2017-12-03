@@ -477,7 +477,7 @@ window.queries = [
         $scope.myFunction6 = function () {
         	if ( Iscount == 0){
         	
-        	IScount+=1;
+        	Iscount+=1;
            console.log("Is" + Iscount);
         	}
         	else {
