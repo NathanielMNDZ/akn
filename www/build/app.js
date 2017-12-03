@@ -404,6 +404,11 @@ window.queries = [
             var x=1
             console.log( x + " for Jeff" );
         };
+
+        $scope.myFunction3 = function () {
+           
+           console.log(document.getElementById('Pablo').value);
+        };
     }
 })();
 (function () {
