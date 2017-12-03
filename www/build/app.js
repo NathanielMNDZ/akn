@@ -355,13 +355,13 @@ window.queries = [
         $scope.items = [
             {
                 color: "#E47500",
-                icon: "Testing art page Text",
+                icon: "This page will contain background information and images for each of the listed pieces",
                 title: "Behind The Art"
             },
 
             {
                 color: "#D86B67",
-                icon: "Testing AKN page Text",
+                icon: "This page will contain information pertaining to The AKN Art Hunt's history and future",
                 title: "About AKN"
             }
         ];
