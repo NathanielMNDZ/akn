@@ -361,7 +361,7 @@ window.queries = [
 
                 color: "#D86B67",
                 icon: "ion-social-angular",
-                title: "About AKN"
+                title: "About"
             }
         ];
 
@@ -391,8 +391,8 @@ window.queries = [
         .module('App')
         .controller('GalleryController', GalleryController);
 
-    GalleryController.$inject = ['$scope', '$ionicPopup', 'Modals', 'Model'];
-    function GalleryController($scope, $ionicPopup, Modals, Model) {
+    GalleryController.$inject = ['$scope', '$state'];
+    function GalleryController($scope, $state) {
         
         $scope.openItem = function(item){
             $state.go('app.item', { title: item.title, icon: item.icon, color: item.color });
