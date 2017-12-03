@@ -489,7 +489,7 @@ window.queries = [
 
         $scope.myFunction7 = function () {
 
-        	console.log(Iscount + Socount);
+        	console.log( Jocount + Jecount + Pacount + Shecount + Socount+ Iscount);
 
 
         };
