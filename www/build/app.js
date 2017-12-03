@@ -489,9 +489,9 @@ window.queries = [
 
         $scope.myFunction7 = function () {
 
-        	console.log( Jocount + Jecount + Pacount + Shecount + Socount+ Iscount);
+        	var counter = Jocount + Jecount + Pacount + Shecount + Socount+ Iscount;
 
-
+        	console.log(counter);
         };
 
     }
