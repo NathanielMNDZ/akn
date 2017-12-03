@@ -409,9 +409,17 @@ window.queries = [
         };
 
         $scope.myFunction3 = function (id) {
-           count+=1;
+        	if ( count == 0){
+        	
+        	count+=1;
            console.log(count);
-           alert(id);
+        	}
+        	else {
+        		count-=1;
+        		console.log(count);
+        	}
+
+
         };
     }
 })();
