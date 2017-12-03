@@ -403,18 +403,37 @@ window.queries = [
 
     GalleryController.$inject = ['$scope'];
     function GalleryController($scope) {
-        
-        $scope.myFunction = function () {
-            var x=1
-            console.log( x + " for johnny" );
+
+
+        $scope.myFunction1 = function () {
+        	if ( Jocount == 0){
+        	
+        	Pacount+=1;
+           console.log("Jo" + Jocount);
+        	}
+        	else {
+        		Jocount-=1;
+        		console.log("Jo" + Jocount);
+        	}
+
+
         };
 
         $scope.myFunction2 = function () {
-            var x=1
-            console.log( x + " for Jeff" );
+        	if ( Jecount == 0){
+        	
+        	Jecount+=1;
+           console.log("Je" + Jecount);
+        	}
+        	else {
+        		Jecount-=1;
+        		console.log("Je" + Jecount);
+        	}
+
+
         };
 
-        $scope.myFunction3 = function () {
+      $scope.myFunction3 = function () {
         	if ( Pacount == 0){
         	
         	Pacount+=1;
@@ -423,6 +442,47 @@ window.queries = [
         	else {
         		Pacount-=1;
         		console.log("Pa" + Pacount);
+        	}
+
+
+        };       
+
+        $scope.myFunction4 = function () {
+        	if ( Shecount == 0){
+        	
+        	Shecount+=1;
+           console.log("She" + Shecount);
+        	}
+        	else {
+        		Shecount-=1;
+        		console.log("She" + Shecount);
+        	}
+
+
+        };
+
+         $scope.myFunction5 = function () {
+        	if ( Socount == 0){
+        	
+        	Socount+=1;
+           console.log("So" + Socount);
+        	}
+        	else {
+        		Socount-=1;
+        		console.log("So" + Socount);
+        	}
+
+
+        };
+        $scope.myFunction6 = function () {
+        	if ( Iscount == 0){
+        	
+        	IScount+=1;
+           console.log("Is" + Iscount);
+        	}
+        	else {
+        		Iscount-=1;
+        		console.log("Is" + Iscount);
         	}
 
 
