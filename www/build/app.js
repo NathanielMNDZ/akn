@@ -491,7 +491,18 @@ window.queries = [
 
         	var counter = Jocount + Jecount + Pacount + Shecount + Socount+ Iscount;
 
-        	console.log(counter);
+        	if ( counter < 6 ){
+        		console.log("Keep searching");
+        		console.log(counter);
+
+        	}
+        	else {
+
+        		console.log(counter);
+        		console.log("time to finsih this up");
+
+        	}
+
         };
 
     }
