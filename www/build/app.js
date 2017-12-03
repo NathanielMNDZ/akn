@@ -3,14 +3,14 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'App' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-
+dummy = 5;
 Jocount = 0;
 Jecount = 0;
 Pacount = 0;
 Shecount = 0;
 Socount = 0;
 Iscount = 0;
-count = Jocount + Jecount + Pacount + Shecount + Socount + Iscount;
+count = Jocount + Jecount + Pacount + Shecount + Socount + Iscount + dummy;
 
 angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
 
