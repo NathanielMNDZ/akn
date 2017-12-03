@@ -644,7 +644,7 @@ window.queries = [
 			}
 		};
 	}
-})console.log("please work");()
+})()
 
 console.log("please work");;
 
