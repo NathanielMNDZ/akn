@@ -404,15 +404,7 @@ window.queries = [
     GalleryController.$inject = ['$scope'];
     function GalleryController($scope) {
 
-      	$scope.countFunction = function () {
 
-			console.log(count);
-
-        	}
-
-
-        };
-        
         $scope.myFunction1 = function () {
         	if ( Jocount == 0){
         	
