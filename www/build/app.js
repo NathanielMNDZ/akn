@@ -396,7 +396,7 @@ window.queries = [
     function GalleryController($scope) {
         
         $scope.myFunction = function () {
-            console.log('it works');
+            console.log(this.id);
         };
     }
 })();
