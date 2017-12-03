@@ -407,7 +407,12 @@ window.queries = [
 
         $scope.myFunction3 = function () {
            
-           console.log(document.getElementById('Pablo').value);
+		var button = document.getElementById('Pablo'),
+  		count = 0;
+		button.onclick = function() {
+  		count += 1;
+  		console.log(count);
+};
         };
     }
 })();
