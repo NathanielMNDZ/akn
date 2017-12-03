@@ -446,9 +446,9 @@
 
 .menu ion-content {
   top: 150px !important;
-  background: linear-gradient(10deg, #313131, #1c1c1c, #021e1e);
+  background: linear-gradient(10deg, #313131, #1c1c1c, #011b1c);
   background-size: 800% 800%;
-  animation: background 26s ease infinite; }
+  animation: background 12s ease infinite; }
   .menu ion-content .item {
     border: none;
     background-color: transparent; }
