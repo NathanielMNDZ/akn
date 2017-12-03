@@ -356,7 +356,7 @@ window.queries = [
             {
                 color: "#E47500",
                 icon: "ion-ionic",
-                title: "About The Art"
+                title: "Behind The Art"
             },
 
             {
