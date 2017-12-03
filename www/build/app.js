@@ -404,7 +404,6 @@ window.queries = [
     function GalleryController($scope) {
 
     	var count = Jocount + Jecount + Shecount + Socount + Iscount + Pacount;
-    	console.log(count);
     	if (count == 0){
 
 
