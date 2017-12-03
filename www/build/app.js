@@ -406,9 +406,8 @@ window.queries = [
         };
 
         $scope.myFunction3 = function () {
-        console.log(count);
-
-};
+           
+           console.log(document.getElementById('Pablo').value);
         };
     }
 })();
