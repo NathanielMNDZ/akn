@@ -408,7 +408,7 @@ window.queries = [
         $scope.myFunction1 = function () {
         	if ( Jocount == 0){
         	
-        	Pacount+=1;
+        	Jocount+=1;
            console.log("Jo" + Jocount);
         	}
         	else {
