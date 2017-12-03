@@ -501,6 +501,12 @@ window.queries = [
         		console.log(counter);
         		console.log("time to finsih this up");
         		window.location.replace("#/home");
+        		Jecount -=1;
+        		Jocount -=1;
+        		Iscount -=1;
+        		Socount -=1;
+        		Shecount -=1;
+        		Pacount -=1;
 
         	}
 
