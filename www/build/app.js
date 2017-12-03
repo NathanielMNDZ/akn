@@ -4,6 +4,12 @@
 // 'App' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 
+var Jocount = 0;
+var Jecount = 0;
+var Pacount = 0;
+var Shecount = 0;
+var Socount = 0;
+var Iscount = 0;
 var count = 0;
 
 angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
@@ -409,14 +415,14 @@ window.queries = [
         };
 
         $scope.myFunction3 = function () {
-        	if ( count == 0){
+        	if ( Pacount == 0){
         	
-        	count+=1;
-           console.log(count);
+        	Pacount+=1;
+           console.log("Pa" + Pacount);
         	}
         	else {
-        		count-=1;
-        		console.log(count);
+        		Pacount-=1;
+        		console.log("Pa" + Pacount);
         	}
 
 
