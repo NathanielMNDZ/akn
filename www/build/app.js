@@ -489,7 +489,7 @@ window.queries = [
 
 		console.log(count);
 
-}
+
 })();
 (function () {
 	'use strict';
