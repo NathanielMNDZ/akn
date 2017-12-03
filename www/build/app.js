@@ -370,7 +370,7 @@ window.queries = [
 
             {
                 color: "#D86B67",
-                icon: "This page will contain information pertaining to The AKN Art Hunt's history and future - OH Akvile, darling if you're reading this - I love you :)",
+                icon: "This page will contain information pertaining to The AKN Art Hunt's history and future",
                 title: "About AKN"
             }
         ];
