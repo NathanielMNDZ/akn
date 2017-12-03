@@ -425,7 +425,8 @@
   color: #fff;
   padding: 0; }
   .menu ion-header-bar .item {
-    background-color: #206AA7;
+    background-color: #000000;
+    color: #494949;
     border: none;
     width: 100%;
     padding-left: 120px;
