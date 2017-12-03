@@ -399,6 +399,11 @@ window.queries = [
             var x=1
             console.log( x + "for johnny" );
         };
+
+        $scope.myFunction2 = function () {
+            var x=1
+            console.log( x + "for Jeff" );
+        };
     }
 })();
 (function () {
