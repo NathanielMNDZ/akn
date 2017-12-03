@@ -392,13 +392,10 @@ window.queries = [
         .module('App')
         .controller('GalleryController', GalleryController);
 
-    GalleryController.$inject = ['$scope', '$state'];
-    function GalleryController($scope, $state) {
-        
-        $scope.openItem = function () {
-            console.log('it works');
-        };
-    }
+function myFunction() {
+   console.log("maybe...");
+}
+
 })();
 (function () {
 	'use strict';
