@@ -396,7 +396,7 @@ window.queries = [
     function GalleryController($scope) {
         
         $scope.myFunction = function () {
-            console.log("try again");
+            console.log(document.getElementById('Jonathan').value);
         };
     }
 })();
