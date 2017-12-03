@@ -4,12 +4,12 @@
 // 'App' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 
-    Jocount = 0;
-    Jecount = 0;
-    Pacount = 0;
-    Shecount = 0;
-	Socount = 0;
- 	Iscount = 0;
+var Jocount = 0;
+var Jecount = 0;
+var Pacount = 0;
+var Shecount = 0;
+var Socount = 0;
+var Iscount = 0;
 
 angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
 
@@ -402,11 +402,6 @@ window.queries = [
 
     GalleryController.$inject = ['$scope'];
     function GalleryController($scope) {
-
-    	count = Jocount + Jecount + Shecount + Socount + Iscount + Pacount;
-    	
-    	if (count == 0){
-
 
         $scope.myFunction1 = function () {
         	if ( Jocount == 0){
