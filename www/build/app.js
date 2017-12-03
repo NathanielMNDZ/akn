@@ -487,6 +487,15 @@ window.queries = [
         		console.log("Is" + Iscount);
         	}
 
+        	countFunction();
+        };
+
+      	$scope.countFunction = function () {
+
+			console.log(count);
+
+        	}
+
 
         };
     }
