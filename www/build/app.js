@@ -385,9 +385,6 @@ window.queries = [
         });
     }
 })();
-
-
-
 (function() {
 'use strict';
 
@@ -410,7 +407,6 @@ window.queries = [
 
         $scope.myFunction3 = function () {
         console.log(count);
-
 
 };
         };
