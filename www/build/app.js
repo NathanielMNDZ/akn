@@ -4,7 +4,7 @@
 // 'App' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 
-var Jocount = 0;
+var Jocount = 1;
 var Jecount = 0;
 var Pacount = 0;
 var Shecount = 0;
