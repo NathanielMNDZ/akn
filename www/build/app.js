@@ -382,7 +382,14 @@ window.queries = [
         
         $scope.$on('$destroy', function() {
             $scope.popover.remove();
-        });
+        }
+
+		var test = document.getElementById('test');
+         test.onclick = function() {
+         console.log('Hello');
+}
+
+        );
     }
 })();
 (function() {
