@@ -56,7 +56,7 @@ angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
             views: {
                 viewContent: {
                     templateUrl: "templates/gallery.html",
-                    controller: 'GalleryController', 'HomeController'
+                    controller: 'GalleryController'
                 }
             }
         })
