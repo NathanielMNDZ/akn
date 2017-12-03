@@ -409,7 +409,7 @@ window.queries = [
         };
 
         $scope.myFunction3 = function () {
-           
+           count+=1;
            console.log(count);
         };
     }
