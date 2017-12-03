@@ -408,7 +408,7 @@ window.queries = [
             console.log( x + " for Jeff" );
         };
 
-        $scope.myFunction3 = function (id) {
+        $scope.myFunction3 = function () {
         	if ( count == 0){
         	
         	count+=1;
