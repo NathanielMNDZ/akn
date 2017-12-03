@@ -355,13 +355,13 @@ window.queries = [
         $scope.items = [
             {
                 color: "#E47500",
-                text: "Testing art page Text",
+                icon: "Testing art page Text",
                 title: "Behind The Art"
             },
 
             {
                 color: "#D86B67",
-                text: "Testing AKN page Text",
+                icon: "Testing AKN page Text",
                 title: "About AKN"
             }
         ];
