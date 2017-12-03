@@ -10,7 +10,7 @@ var Pacount = 0;
 var Shecount = 0;
 var Socount = 0;
 var Iscount = 0;
-var count = Jocount + Jecount + Pacount + Shecount + Socount + Iscount;
+count = Jocount + Jecount + Pacount + Shecount + Socount + Iscount;
 
 angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
 
