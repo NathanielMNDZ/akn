@@ -396,7 +396,7 @@ window.queries = [
     function GalleryController($scope, $state) {
         
         $scope.openItem = function () {
-            console.log('it works')
+            console.log('it works');
         };
     }
 })();
