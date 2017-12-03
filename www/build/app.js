@@ -408,9 +408,10 @@ window.queries = [
             console.log( x + " for Jeff" );
         };
 
-        $scope.myFunction3 = function () {
+        $scope.myFunction3 = function (id) {
            count+=1;
            console.log(count);
+           alert(id);
         };
     }
 })();
