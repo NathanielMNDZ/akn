@@ -392,10 +392,13 @@ window.queries = [
         .module('App')
         .controller('GalleryController', GalleryController);
 
-function myFunction() {
-   console.log("maybe...");
-}
-
+    GalleryController.$inject = ['$scope'];
+    function GalleryController($scope) {
+        
+        $scope.myFunction = function () {
+            console.log('it works');
+        };
+    }
 })();
 (function () {
 	'use strict';
