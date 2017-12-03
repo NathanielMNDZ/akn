@@ -410,7 +410,7 @@ window.queries = [
 
         $scope.myFunction3 = function () {
            
-           console.log(document.getElementById('Pablo').value);
+           console.log(count);
         };
     }
 })();
