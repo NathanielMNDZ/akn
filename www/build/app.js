@@ -386,7 +386,7 @@ window.queries = [
     }
 })();
 
-var count = 0;
+
 
 (function() {
 'use strict';
