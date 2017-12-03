@@ -394,13 +394,10 @@ window.queries = [
     GalleryController.$inject = ['$scope', '$ionicPopup', 'Modals', 'Model'];
     function GalleryController($scope, $ionicPopup, Modals, Model) {
         
-        $scope.HelloWorld = function () {
-			$ionicPopup.alert({
-				title: 'Hello World',
-				template: 'This is the beginning of the AKN Art Hunt!!!',
-     		cssClass: 'animated bounceInDown'
-			});
-    }}
+        $scope.openItem = function(item){
+            $state.go('app.item', { title: item.title, icon: item.icon, color: item.color });
+        };
+    }
 })();
 (function () {
 	'use strict';
