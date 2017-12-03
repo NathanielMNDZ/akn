@@ -396,8 +396,6 @@ window.queries = [
 (function() {
 'use strict';
 
-var count = Jocount + Jecount + Pacount + Shecount + Socount + Iscount;
-
     angular
         .module('App')
         .controller('GalleryController', GalleryController);
@@ -489,6 +487,14 @@ var count = Jocount + Jecount + Pacount + Shecount + Socount + Iscount;
 
 
         };
+        
+        $scope.myFunction7 = function () {
+
+        	console.log('this works');
+
+
+        };
+
     }
 })();
 (function () {
