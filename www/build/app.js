@@ -355,7 +355,7 @@ window.queries = [
         $scope.items = [
             {
                 color: "#E47500",
-                icon: "ion-ionic",
+                icon: "woho.png",
                 title: "Behind The Art"
             },
 
