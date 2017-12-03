@@ -500,7 +500,7 @@ window.queries = [
 
         		console.log(counter);
         		console.log("time to finsih this up");
-        		window.location.replace("home");
+        		window.location.replace("#/home");
 
         	}
 
