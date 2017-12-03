@@ -412,6 +412,7 @@ window.queries = [
         	
         	Jocount+=1;
            console.log("Jo" + Jocount);
+           console.log(count);
         	}
         	else {
         		Jocount-=1;
