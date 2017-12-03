@@ -10,7 +10,6 @@ var Pacount = 0;
 var Shecount = 0;
 var Socount = 0;
 var Iscount = 0;
-var count = 0;
 
 angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
 
@@ -404,6 +403,7 @@ window.queries = [
     GalleryController.$inject = ['$scope'];
     function GalleryController($scope) {
 
+    	var count = Jocount + Jecount + Shecount + Socount + Iscount + Pacount;
     	if (count == 0){
 
 
