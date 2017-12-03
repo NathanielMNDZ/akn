@@ -10,6 +10,7 @@ var Pacount = 0;
 var Shecount = 0;
 var Socount = 0;
 var Iscount = 0;
+var count = 0;
 
 angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
 
@@ -403,6 +404,9 @@ window.queries = [
     GalleryController.$inject = ['$scope'];
     function GalleryController($scope) {
 
+    	if (count == 0){
+
+
         $scope.myFunction1 = function () {
         	if ( Jocount == 0){
         	
@@ -414,7 +418,7 @@ window.queries = [
         		console.log("Jo" + Jocount);
         	}
 
-        	console.log(count);
+
         };
 
         $scope.myFunction2 = function () {
@@ -489,7 +493,7 @@ window.queries = [
 
 		console.log(count);
 
-
+}
 })();
 (function () {
 	'use strict';
