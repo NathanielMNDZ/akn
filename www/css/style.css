@@ -519,7 +519,7 @@
 .ele {
 
     
-  animation: 20s fadeIn;
+  animation: 30s fadeIn;
   animation-fill-mode: forwards;
   
   visibility: hidden;
