@@ -29,10 +29,12 @@
 		</p>
 		<div></div>
 
+		<p id ="loveText" style="visibility: hidden;">
+			TEXTTEXTTEXT
+		</p>	
+
     </ion-list>
-   			<div id="loveText" style="visibility:hidden;">
-			This is some delayed text
-			</div>
+
     <div><button class="button button-outline button-block button-light animated bounceInUp" ui-sref="home">Home</button></div>
   </ion-content>
 </ion-view>
@@ -41,6 +43,6 @@
 
 setTimeout(function(){
 document.getElementById('loveText').style.visibility = "visible";
-},1000);
+},2000);
 
 </script>
