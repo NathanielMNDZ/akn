@@ -521,7 +521,7 @@
   height: 60px;
   
   background-color: #ff6699;
-  animation: 1s fadeIn;
+  animation: 10s fadeIn;
   animation-fill-mode: forwards;
   
   visibility: hidden;
