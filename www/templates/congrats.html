@@ -1,3 +1,15 @@
+<script>
+window.onload = function(){
+// Change this value to however many seconds you want to delay the text by.
+var theDelay = 2;
+var timer = setTimeout("showText()",theDelay*1000)
+}
+function showText(){
+document.getElementById("delayedText").style.visibility = "visible";
+}
+</script>
+
+
 <ion-view class="hView" view-title="Congrats" hide-nav-bar="true">
   <ion-content>
     <ion-list>
@@ -29,6 +41,9 @@
 		<div></div>
 
     </ion-list>
+   			<div id="delayedText" style="font-size: 1.6em ;color:#0ed6d6;margin-top: 55px;visibility:hidden;">
+			This is some delayed text
+			</div>
     <div><button class="button button-outline button-block button-light animated bounceInUp" ui-sref="home">Home</button></div>
   </ion-content>
 </ion-view>
