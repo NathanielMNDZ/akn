@@ -52,9 +52,9 @@ angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
             templateUrl: "templates/home.html",
             controller: 'HomeController'
         })
-          .state('home', {
+          .state('congrats', {
     		url: '/congrats',
-    		templateUrl: 'congrats.html'
+    		templateUrl: 'templates/congrats.html'
         })
 
         .state('app', {
