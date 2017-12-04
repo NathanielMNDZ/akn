@@ -52,6 +52,11 @@ angular.module('App', ['ionic', 'ngCordova', 'ngAnimate'])
             templateUrl: "templates/home.html",
             controller: 'HomeController'
         })
+          .state('home', {
+    		url: '/congrats',
+    		templateUrl: 'congrats.html'
+        })
+
         .state('app', {
             url: '/app',
             abstract: true,
@@ -500,7 +505,7 @@ window.queries = [
 
         		console.log(counter);
         		console.log("time to finsih this up");
-        		window.location.replace("#/home");
+        		window.location.replace("#/congrats");
         		Jecount -=1;
         		Jocount -=1;
         		Iscount -=1;
