@@ -517,10 +517,8 @@
   animation-duration: 0; }
 
 .ele {
-  width: 60px;
-  height: 60px;
-  
-  
+
+    
   animation: 25s fadeIn;
   animation-fill-mode: forwards;
   
