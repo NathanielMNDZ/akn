@@ -414,11 +414,12 @@ window.queries = [
         	
         	Jocount+=1;
            console.log("Jo" + Jocount);
-           document.getElementById('Jonathan').style.color = 'red';
+           document.getElementById('Jonathan').style.color = '#0ed6d6';
         	}
         	else {
         		Jocount-=1;
         		console.log("Jo" + Jocount);
+        		document.getElementById('Jonathan').style.color = '#ffffff';
         	}
 
 
@@ -429,10 +430,12 @@ window.queries = [
         	
         	Jecount+=1;
            console.log("Je" + Jecount);
+           document.getElementById('Jeff').style.color = '#0ed6d6';
         	}
         	else {
         		Jecount-=1;
         		console.log("Je" + Jecount);
+        		document.getElementById('Jeff').style.color = '#ffffff';
         	}
 
 
@@ -443,10 +446,12 @@ window.queries = [
         	
         	Pacount+=1;
            console.log("Pa" + Pacount);
+           document.getElementById('Pablo').style.color = '#0ed6d6';
         	}
         	else {
         		Pacount-=1;
         		console.log("Pa" + Pacount);
+        		document.getElementById('Pablo').style.color = '#ffffff';
         	}
 
 
@@ -457,10 +462,12 @@ window.queries = [
         	
         	Shecount+=1;
            console.log("She" + Shecount);
+           document.getElementById('Sheila').style.color = '#0ed6d6';
         	}
         	else {
         		Shecount-=1;
         		console.log("She" + Shecount);
+        		document.getElementById('Sheila').style.color = '#ffffff';
         	}
 
 
@@ -470,11 +477,13 @@ window.queries = [
         	if ( Socount == 0){
         	
         	Socount+=1;
+        	document.getElementById('Sophie').style.color = '#0ed6d6';
            console.log("So" + Socount);
         	}
         	else {
         		Socount-=1;
         		console.log("So" + Socount);
+        		document.getElementById('Sophie').style.color = '#ffffff';
         	}
 
 
@@ -483,11 +492,13 @@ window.queries = [
         	if ( Iscount == 0){
         	
         	Iscount+=1;
+        	document.getElementById('Isamu').style.color = '#0ed6d6';
            console.log("Is" + Iscount);
         	}
         	else {
         		Iscount-=1;
         		console.log("Is" + Iscount);
+        		document.getElementById('Isamu').style.color = '#ffffff';
         	}
 
 
