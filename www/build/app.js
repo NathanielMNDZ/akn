@@ -414,6 +414,7 @@ window.queries = [
         	
         	Jocount+=1;
            console.log("Jo" + Jocount);
+           document.getElementById('Jonathan').style.color = 'red';
         	}
         	else {
         		Jocount-=1;
