@@ -516,4 +516,29 @@
   animation-delay: 200ms;
   animation-duration: 0; }
 
+.ele {
+  width: 60px;
+  height: 60px;
+  
+  background-color: #ff6699;
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+  
+  visibility: hidden;
+}
+
+.ele:hover {
+  background-color: #123;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
