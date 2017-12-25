@@ -396,7 +396,9 @@
   font-size: 26px; }
 
 .homeView .scroll-content {
-  background-image: url("../img/nyc.jpg");
+  background: url("../img/nyc.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
  /* background-size: 800% 800%;
   animation: background 13s ease infinite; }*/
   .homeView .scroll-content .scroll {
