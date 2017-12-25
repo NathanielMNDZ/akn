@@ -374,7 +374,7 @@ window.queries = [
 
             {
                 color: "#D86B67",
-                icon: "This page will contain information pertaining to The AKN Art Hunt's history and future",
+                icon: "The AKN Art Hunt was created by Nathaniel Mendoza on November 26, 2017 as a gift to his girlfriend Akvile Marciukaityte . The two share a mutual love for all things art and design, which sparked the initial inspiration for such a project. This application is intended to be a medium for interactive exploration into the world of art. Enjoy!",
                 title: "About AKN"
             }
         ];
