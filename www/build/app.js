@@ -366,11 +366,6 @@ window.queries = [
     function AppController($scope, $ionicPopover) {
         
         $scope.items = [
-            {
-                color: "#E47500",
-                icon: "This page will contain background information and images for each of the listed pieces",
-                title: "Behind The Art"
-            },
 
             {
                 color: "#D86B67",
