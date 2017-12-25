@@ -384,7 +384,9 @@
 
 .galleryView .bold {
   font-weight: bold; }
-
+.homeView body {
+  background-image: url("./img/futurama.png");
+}
 .homeView h1, .homeView button {
   font-family: 'Jura'; }
 
