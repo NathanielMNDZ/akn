@@ -396,10 +396,9 @@
   font-size: 26px; }
 
 .homeView .scroll-content {
-  background: url("../img/nyc.jpg");
-  background-size: auto;
- /* background-size: 800% 800%;
-  animation: background 13s ease infinite; }*/
+  background: linear-gradient(145deg, #000000, #ffffff);
+  background-size: 800% 800%;
+  animation: background 13s ease infinite; }
   .homeView .scroll-content .scroll {
     height: 100%; }
     .homeView .scroll-content .scroll .row-center {
